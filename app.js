@@ -1,3 +1,4 @@
+const require ("fs");
 const inquirer = require('inquirer');
 
 const promptUser = () => {
