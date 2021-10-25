@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
-var inquirer = require('inquirer');
-inquirer
-  .prompt([
+import { prompt } from 'inquirer';
+
+prompt([
     /* Pass your questions in here */
   ])
   .then((answers) => {
@@ -15,6 +15,9 @@ inquirer
     }
   });
 // TODO: Create an array of questions for user input
+//run readme generator
+import readmeGen from 'readme-md-generator';
+
 const questions = [];
 
 // TODO: Create a function to write README file
